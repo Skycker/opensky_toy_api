@@ -4,7 +4,7 @@
 
 ### Установка
 
-    pip install https://github.com/Skycker/opensky_toy_api
+    pip install git+https://github.com/Skycker/opensky_toy_api
 
 ### Использование
 

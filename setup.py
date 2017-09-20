@@ -1,10 +1,9 @@
 from distutils.core import setup
 
-import opensky_toy_api
 
 setup(
     name='opensky_toy_api',
-    version=opensky_toy_api.__version__,
+    version='0.1.dev1',
     packages=['opensky_toy_api'],
     url='https://github.com/Skycker/opensky_toy_api',
     license='MIT',
