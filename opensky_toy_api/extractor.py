@@ -45,7 +45,7 @@ class OpenSkyApi(object):
 
     def parse_response(self, response):
         try:
-            return [AirplaneState(state[1], state[5], state[6]) for state in response['states']]
+            return [AirplaneState(state[1], state[6], state[5]) for state in response['states']]
         except (KeyError, IndexError):
             raise OpenSkyApiException(self.PARSE_ERROR)
 
