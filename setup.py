@@ -12,6 +12,7 @@ setup(
     author_email='kostyukhin.kirill@gmail.com',
     description='API for opensky service',
     install_requires=['requests'],
+    setup_requires=['requests'],
     keywords="opensky api",
     classifiers=[
         "Development Status :: 3 - Alpha",
